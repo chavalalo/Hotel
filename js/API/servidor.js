@@ -3,10 +3,10 @@ function enviarRegistro(nombre,telefono,email){
 	$.ajax({
 		type: "POST",
 		url: "http://igitsoft.com/pgtest.php",
-		data: "nom="+nombre+"&tel="+telefono+"&ema="+email
+		data: "nom="+nombre+"&tel="+telefono+"&ema="+email+"&id="+disp()['id']
 	}).done(function(msg){
 		if(msg==1){
-			navigator.notification.confirm("Datos Guardos Satisfactoriamente", function(botones){
+			navigator.notification.confirm("Datos Guardos Satisfactoriamente\n"+disp()['platform'], function(botones){
 				switch(botones){
 					case 1:
 						navigator.notification.beep(5);
