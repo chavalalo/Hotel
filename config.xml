@@ -64,20 +64,20 @@
     -->
 
     <!-- Define app icon for each platform. -->
-    <icon src="img/icon.jpg" />
-    <icon src="img/icon.jpg"   gap:platform="android"    gap:density="ldpi" />
-    <icon src="img/icon.jpg"   gap:platform="android"    gap:density="mdpi" />
-    <icon src="img/icon.jpg"   gap:platform="android"    gap:density="hdpi" />
-    <icon src="img/icon.jpg"   gap:platform="android"    gap:density="xhdpi" />
-    <icon src="img/icon.jpg"   gap:platform="blackberry" />
-    <icon src="img/icon.jpg"   gap:platform="blackberry" gap:state="hover"/>
-    <icon src="img/icon.jpg"   gap:platform="ios"        width="57" height="57" />
-    <icon src="img/icon.jpg"   gap:platform="ios"        width="72" height="72" />
-    <icon src="img/icon.jpg"   gap:platform="ios"        width="114" height="114" />
-    <icon src="img/icon.jpg"   gap:platform="ios"        width="144" height="144" />
-    <icon src="img/icon.jpg"   gap:platform="webos" />
-    <icon src="img/icon.jpg"   gap:platform="winphone" />
-    <icon src="img/icon.jpg"   gap:platform="winphone"   gap:role="background" />
+    <icon src="img/icon.png" />
+    <icon src="img/icon.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="img/icon.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="img/icon.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="img/icon.png"   gap:platform="android"    gap:density="xhdpi" />
+    <icon src="img/icon.png"   gap:platform="blackberry" />
+    <icon src="img/icon.png"   gap:platform="blackberry" gap:state="hover"/>
+    <icon src="img/icon.png"   gap:platform="ios"        width="57" height="57" />
+    <icon src="img/icon.png"   gap:platform="ios"        width="72" height="72" />
+    <icon src="img/icon.png"   gap:platform="ios"        width="114" height="114" />
+    <icon src="img/icon.png"   gap:platform="ios"        width="144" height="144" />
+    <icon src="img/icon.png"   gap:platform="webos" />
+    <icon src="img/icon.png"   gap:platform="winphone" />
+    <icon src="img/icon.png"   gap:platform="winphone"   gap:role="background" />
 
     <!-- Define app splash screen for each platform. -->
     <gap:splash src="img/splash.jpg"  gap:platform="android" gap:density="ldpi" />
