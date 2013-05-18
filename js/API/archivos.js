@@ -18,10 +18,15 @@ function uploadPhoto(foto, nom) {
 			switch(botones){
 				case 1:
 					navigator.notification.beep(5);
+					window.location.href = '#page';
 					break;
 				case 2:
 					navigator.notification.vibrate(500);
+					window.location.href = '#page';
 					break;	
+				case 3:
+					window.location.href = '#page';
+					break;
 			}
 		}, "Titulo", "Beep, Vibrar, Salir");
 	}, function(err){
