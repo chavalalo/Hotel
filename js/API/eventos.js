@@ -1,6 +1,7 @@
 //Eventos
 $(document).ready(function(){
 	document.addEventListener("deviceready", function(){
+		if(!isLogin())
 		window.location.href = '#login';
 		$('#regFoto').tap(function(){
 			tomarFoto();

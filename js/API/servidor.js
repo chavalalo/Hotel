@@ -7,7 +7,7 @@ function enviarRegistro(nombre,telefono,email,foto){
 	}).done(function(msg){
 		if(msg==1){
 			//Subir Foto
-			uploadPhoto(foto);
+			uploadPhoto(foto,nombre);
 		}else{
 			navigator.notification.alert("Los datos no fueron enviados correctamente", null, "Error de Registro", "Aceptar");
 		}
