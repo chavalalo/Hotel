@@ -96,7 +96,9 @@
 
         <access />            - a blank access tag denies access to all external resources.
 		-->
-        <access origin="*" /> <!--- a wildcard access tag allows access to all external resource.
+        <access origin="*" />
+		
+		 <!--- a wildcard access tag allows access to all external resource.
   
         Otherwise, you can specify specific domains:
     
