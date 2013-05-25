@@ -14,7 +14,7 @@ function enviarRegistro(nombre,telefono,email,foto){
 	});
 }
 
-function reservarHb(t,p,h,d) {
+function reservarHB(t,p,h,d) {
 		$.ajax({
 		type: "POST",
 		url: "http://igitsoft.com/pgtest.php",
@@ -28,6 +28,4 @@ function reservarHb(t,p,h,d) {
 			navigator.notification.alert("No se pudo sincronizar la reserva, Esperando conexión a internet", null, "Error de Sincronización", "Aceptar");
 		}
 	});
-	
-	
 	}
