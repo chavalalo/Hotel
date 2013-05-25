@@ -18,7 +18,7 @@ function accesoBD(){
 	}
 
 function reservaInt(t,p,h,d){
-	accessoBD().transaction( function populateDB(tx) {
+	accesoBD().transaction( function populateDB(tx) {
     var f = new Date();
 	var fecja = f.getDate() + '/' + (f.getMonth()+1) + '/' + f.getFullYear();
 	
